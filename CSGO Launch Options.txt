@@ -1,0 +1,1 @@
+-w 1280 -h 1024 -freq 75 -console -allow_third_party_software

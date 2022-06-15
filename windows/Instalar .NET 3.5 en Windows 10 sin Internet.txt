@@ -1,0 +1,13 @@
+Instalando el Framework 3.5 en Windows 8.1 se puede generar un error 0x800F0906 y se resuelve de una forma muy simple, simplemente hay que tener disponible el disco de instalación de Windows.
+
+Antes debemos tener habilitado la politica o directiva dentro de Windows, los pasos serían:
+
+Buscamos “Edit Group Policy” o “Editar directiva de grupo” en el buscador de Windows 8.
+Seleccionamos “Administrative Templates” o “Plantillas administrativas”
+Seleccionamos “Sistema”
+Buscamos y doble click en “Especificar configuración para la instalación de componentes opcionales y la reparación de componentes”
+Habilitamos el componente
+En el Command Prompt en modo administrador y ejecutamos gpupdate /force
+Seguidamente abrimos el Command Prompt en modo administrador y ejecutamos el comando directamente en C:
+
+DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:d:\sources\sxs

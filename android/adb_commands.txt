@@ -1,0 +1,21 @@
+fastboot devices
+
+fastboot oem get_unlock_data
+fastboot oem unlock CLAVE
+
+fastboot flash boot boot.img
+fastboot flash recovery recovery.img
+fastboot flash logo logo.bin
+fastboot flash system system.img
+fastboot flashall
+fastboot boot IMAGEN.img
+___________________________________________
+adb devices
+
+adb push
+adb pull
+adb install
+adb shell
+adb reboot
+adb reboot-bootloader
+adb reboot recovery

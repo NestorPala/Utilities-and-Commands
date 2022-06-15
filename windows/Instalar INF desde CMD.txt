@@ -1,0 +1,10 @@
+como instalar INF desde CMD
+
+1) desactivar firma digital
+(cmd como admin)
+bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS 
+bcdedit.exe -set TESTSIGNING ON 
+(reiniciar)
+
+2) cmd como admin
+pnputil -i -a android_winusb.inf

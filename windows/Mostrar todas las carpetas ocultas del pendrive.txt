@@ -1,0 +1,5 @@
+Mostrar todas las carpetas ocultas del pendrive
+
+1) cmd como administrador
+2) k:
+3) attrib /s /d -r -h -s *.*

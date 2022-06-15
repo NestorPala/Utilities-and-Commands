@@ -1,0 +1,25 @@
+Cómo borrar el virus que crea accesos directos en los USB
+
+
+1) El archivo tiene los siguientes nombres:
+
+- Explorer.exe
+- Bstsj.exe
+- i4jdel0.exe
+- WebMeSu.exe
+
+O cualquier otro nombre raro con mayúsculas y/o minúsculas
+
+
+2) Abrir el Administrador de tareas y finalizar TODOS los procesos "svchost.exe" que tengan como nombre de usuario, el nombre de un usuario.
+
+
+3) Borrar (aplícase a todos los usuarios):
+
+- El .exe raro de C:\Users\USUARIO\AppData\Roaming\Update\
+- Todo el contenido de C:\Users\USUARIO\AppData\Local\Temp
+- Abrir cada USB con 7-Zip o WinRAR y borrar los .lnk y el .exe raro
+- El .exe raro de C:\Users\Alumno\AppData\Roaming\Microsoft\Windows\
+
+
+4) Abrir CCleaner e ir a  Herramientas  >  Inicio  >  Windows  y BORRAR TODAS las entradas que tengan en la sección "Archivo" la dirección de los archivos del virus

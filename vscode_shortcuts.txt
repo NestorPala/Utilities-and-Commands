@@ -1,0 +1,28 @@
+VSCODE SHORTCUTS (ENGLISH KEYBOARD)
+
+
+CTRL K CTRL 0: collapse all
+CTRL K CTRL [: collapse region
+
+CTRL K CTRL J: expand all
+CTRL K CTRL ]: expand region
+
+CTRL G: go to line x
+CTRL END: go to last line
+
+
+-------------------------------------------------
+
+%APPDATA%\Code\User\settings.json
+
+-------------------------------------------------
+
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations": {
+        "editorError.foreground":   "#00000000",
+        "editorWarning.foreground": "#00000000",
+        "editorInfo.foreground":    "#00000000",
+	"editor.foldBackground": "#00000000"
+    }
+}
