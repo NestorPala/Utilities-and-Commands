@@ -1,0 +1,20 @@
+{
+    "workbench.colorCustomizations": {
+	"editor.foldBackground": "#00000000"
+    },
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.colorTheme": "Monokai Night",
+    "editor.fontLigatures": true,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "redhat.telemetry.enabled": false,
+    "code-runner.ignoreSelection": true,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "window.zoomLevel": -2,
+    "editor.wordWrap": "on"
+}
